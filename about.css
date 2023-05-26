@@ -1,0 +1,123 @@
+h2{
+    color: blueviolet;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+header{
+    background-color: rosybrown;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 3px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: greenyellow;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    margin-right: 50px;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:: before{
+    content: "";
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border: 20px solid;
+    box-shadow: 20px 20px yellow;
+    position: relative;
+}
+.grid-item{
+    background-color: darkgray;
+    bordor:1px solod rgba(0,0,0,0.8);
+    padding:  20px;
+    text-align: center;
+    padding: 50px;
+}
+.grid-item:hover {
+    background-color: lightblue;
+}
+.resize1{
+    height: 250px;
+    width: 250px;
+}
+.grid-workc{
+    grid-template-columns:auto auto auto auto;
+    display: grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border:20px solid;
+}
+.grid-work{
+    
+    text-align: center;
+
+}
+.resize{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: inherit;
+}
+h4,h6{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+.text{
+    font-weight: bold;
+    padding: 80px;
+}
+
+.resize2{
+    height: 400px;
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+}
+.box-shadow{
+    box-shadow: 20px 20px darkred;
+}
+p{
+    text-align: left;
+}
